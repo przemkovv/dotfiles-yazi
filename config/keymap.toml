@@ -1,0 +1,15 @@
+[[manager.prepend_keymap]]
+on   = "<C-s>"
+run  = 'shell "pwsh.exe" --block --confirm'
+desc = "Open PowerShell here"
+
+
+[[manager.prepend_keymap]]
+on   = "S"
+run  = 'search rg --args="-u"'
+desc = "Search files by content using ripgrep"
+
+[[manager.prepend_keymap]]
+on   = "<Enter>"
+run  = "plugin --sync smart-enter"
+desc = "Enter the child directory, or open the file"

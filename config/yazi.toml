@@ -1,0 +1,14 @@
+[opener]
+edit = [
+{ run = 'bat --paging=always "$1"',                desc = "bat", for = "linux" },
+{ run = 'bat --paging=always "%1"', block = true, desc = "bat", for = "windows" },
+{ run = 'nvim "$@"', block = true , for="unix"},
+{ run = 'nvim %*', block = true , for="windows"},
+{ run = '${EDITOR:-vi} "$@"', desc = "$EDITOR", block = true, for = "unix" },
+{ run = 'code %*',    orphan = true, desc = "code",           for = "windows" },
+{ run = 'code -w %*', block = true,  desc = "code (block)",   for = "windows" },
+]
+
+[manager]
+linemode = "size_and_mtime"
+show_hidden = true
