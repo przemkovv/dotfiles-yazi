@@ -3,6 +3,15 @@ on   = "<C-s>"
 run  = 'shell "pwsh.exe" --block --confirm'
 desc = "Open PowerShell here"
 
+[[manager.prepend_keymap]]
+on   = ["g", "t"]
+run  = "plugin wezterm-cli --args='split-pane --right'"
+desc = "Split wezterm terminal here"
+
+[[manager.prepend_keymap]]
+on   = ["g", "T"]
+run  = "plugin wezterm-cli --args='spawn'"
+desc = "Spawn wezterm terminal here"
 
 [[manager.prepend_keymap]]
 on   = "S"
