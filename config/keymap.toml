@@ -5,7 +5,7 @@ desc = "Open PowerShell here"
 
 [[manager.prepend_keymap]]
 on   = ["g", "t"]
-run  = "plugin wezterm-cli --args='split-pane --right'"
+run  = 'plugin wezterm-cli --args="\"split-pane --right\""'
 desc = "Split wezterm terminal here"
 
 [[manager.prepend_keymap]]
@@ -22,3 +22,29 @@ desc = "Search files by content using ripgrep"
 on   = "<Enter>"
 run  = "plugin --sync smart-enter"
 desc = "Enter the child directory, or open the file"
+
+[[manager.prepend_keymap]]
+on   = [ "g", "d" ]
+run  = "cd h:/Libraries/Downloads"
+desc = "Cd to ~/Downloads"
+
+[[manager.prepend_keymap]]
+on   = [ "g", "p" ]
+run  = "cd h:/projects/"
+desc = "Cd projects"
+
+[[manager.prepend_keymap]]
+on   = [ "g", "b" ]
+run  = "cd h:/b1/"
+desc = "Cd build"
+
+[[manager.prepend_keymap]]
+on   = [ "g", "v" ]
+run  = "cd h:/dev/vcpkg"
+desc = "Cd vcpkg"
+
+[[manager.prepend_keymap]]
+on   = [ "g", "f" ]
+run  = 'search_do --via=fd --args="-d 3"'
+desc = "Switch to the flat view with a max depth of 3"
+
