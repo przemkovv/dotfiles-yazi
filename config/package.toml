@@ -1,9 +1,14 @@
 [[plugin.deps]]
 use = "yazi-rs/plugins:full-border"
-rev = "02d18be"
-hash = "dddb07e2c6dde754659526fe2d534701"
+rev = "d7588f6"
+hash = "f3029f63b5683803f46980438a560ba9"
 
 [[flavor.deps]]
 use = "tkapias/moonfly"
 rev = "395c686"
 hash = "ecbed28db3baa413585462a0b248027e"
+
+[[flavor.deps]]
+use = "BennyOe/tokyo-night"
+rev = "5f56364"
+hash = "62e55d8e4af15456907631e6536eb994"
