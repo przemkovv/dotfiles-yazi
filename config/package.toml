@@ -1,17 +1,17 @@
 [[plugin.deps]]
 use = "yazi-rs/plugins:full-border"
 rev = "58c4f4e"
-hash = "f281261ff04ad7ec867c3f802a50835f"
+hash = "acf841be033b88195a008c65fd973883"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:types"
 rev = "58c4f4e"
-hash = "d368d5a6a72657e1c0e7ee7340dcea8c"
+hash = "ef4d15bf8a19621c5b9fadb3fd7adbbc"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:smart-enter"
 rev = "58c4f4e"
-hash = "187cc58ba7ac3befd49c342129e6f1b6"
+hash = "e2502af5a8c03d4cb2ac06da6169609e"
 
 [[plugin.deps]]
 use = "WhoSowSee/whoosh"
@@ -21,4 +21,4 @@ hash = "da14dfe482886e756150ae4f5c2bb23"
 [[flavor.deps]]
 use = "BennyOe/tokyo-night"
 rev = "8e6296f"
-hash = "d9da921c3bd37ba32ee27a8a7a40461f"
+hash = "49258e379077f4b0d2e62dfdb131c7d"
